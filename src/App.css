@@ -1,0 +1,12 @@
+/* Header style start  */
+
+#menu{
+  display: block;
+  float: right;
+}
+
+@media screen and (max-width:600px) {
+  #menu{
+    display: none;
+  }
+}
