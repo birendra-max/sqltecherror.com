@@ -4,9 +4,15 @@
   display: block;
   float: right;
 }
+#typewriter{
+  display: block;
+}
 
 @media screen and (max-width:600px) {
   #menu{
+    display: none;
+  }
+  #typewriter{
     display: none;
   }
 }
