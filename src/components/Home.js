@@ -2,6 +2,7 @@ import React from 'react'
 import author from './logo/Auther.jpg';
 import whatsapp from './logo/whatsapp.png'
 import BlogContent from './BlogContent';
+import RelatedPosts from './RelatedPosts';
 
 export default function Home() {
     return (
@@ -74,7 +75,7 @@ export default function Home() {
                                 </ul>
                             </div>
 
-                            <ul className="mt-4 bg-white divide-y divide-gray-300 max-w-sm mt-0 mx-auto px-4 border">
+                            <ul className="mt-4 bg-white divide-y divide-gray-300 max-w-sm mt-0 mx-auto px-4 border hover:shadow-2xl transition-all duration-300 transform">
                                 <h1 className="text-lg md:text-1xl pl-2 my-2 border-l-4  font-sans font-bold border-teal-400  dark:text-black-200">
                                     Comments
                                 </h1>
@@ -103,6 +104,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <RelatedPosts/>
         </>
     )
 }
